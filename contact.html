@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="index.html" class="header__brand">
+          <h1>Rodrigo Olave Carrasco</h1>
+        </a>
+      </div>
+      <nav class="header__nav">
+        <div class="container">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./gallery.html">Gallery</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      </nav>
+    </header>
+    <!-- end .header -->
+    <main class="main">
+      <div class="container main__general">
+        <section class="content">
+          <h2 class="content__title">Let's talk</h2>
+          <div class="content__two-cols">
+            <div class="info">
+              <h3>I am happy to chat about any job opportunities.</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quidem
+                nisi repudiandae blanditiis ad. Sit nesciunt voluptatem minima
+                suscipit ut eaque quas. Officiis tempora quos blanditiis tenetur.
+                Velit, in exercitationem.
+              </p>
+              <p>Please send me a message!</p>
+              <ul>
+                <li><a href="" target="_blank">Linkedin</a></li>
+                <li><a href="mailto:rholave@gmail.com">Email</a></li>
+              </ul>
+            </div>
+            <div class="contact">
+              <form action="/index.html" class="contact__form" method="post">
+                <div class="contact__form-group">
+                  <label for="name">Name</label>
+                  <input id="name" type="text" name="name" required>
+                </div>
+                <div class="contact__form-group">
+                  <label for="lastname">Lastname</label>
+                  <input id="lastname" type="text" name="lastname" required>
+                </div>
+                <div class="contact__form-group">
+                  <label for="phone">Phone number</label>
+                  <input id="phone" type="text" name="phone" required>
+                </div>
+                <div class="contact__form-group">
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message"></textarea>
+                </div>
+                <button class="contact__form-submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <aside class="sidebar">
+          <div class="sidebar__item">
+            <img class="sidebar__item-img" src="./assets/img/favicon.png" alt="Item image">
+            <a class="sidebar__item-title" href="./index.html">Home page</a>
+          </div>
+          <div class="sidebar__item">
+            <img class="sidebar__item-img" src="./assets/img/favicon.png" alt="Item image">
+            <a class="sidebar__item-title" href="./gallery.html">Gallery</a>
+          </div>
+          <div class="sidebar__item">
+            <img class="sidebar__item-img" src="./assets/img/favicon.png" alt="Item image">
+            <a class="sidebar__item-title" href="./contact.html">Contact</a>
+          </div>
+        </aside>
+      </div>
+    </main>
+    <!-- end .main -->
+    <footer class="footer">
+      <div class="container">
+        <p class="footer__copy">
+          &copy; Rodrigo Olave Carrasco, all rights reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- end .footer -->
+  </body>
+</html>
